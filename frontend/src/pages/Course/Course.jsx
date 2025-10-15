@@ -7,7 +7,7 @@ import ProfileOptions from "../../components/ProfileOptions";
 import CourseDetails from "../../components/CourseDetails";
 import { useAuthStore } from "@/store/authStore";
 
-const BASE_URL = "http://localhost:4000/api/v1";
+const BASE_URL = "https://imarticus-lms.onrender.com/api/v1";
 
 const Course = () => {
   const user = useAuthStore((state) => state.user);

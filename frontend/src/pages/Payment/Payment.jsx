@@ -40,10 +40,10 @@ const Payment = () => {
   useEffect(() => {
     const fetchCourse = async () => {
       try {
-        console.log("Fetching course from:", "http://localhost:4000/api/v1/course/68ef99ed2e5d3b9f2c8223a6");
+        console.log("Fetching course from:", "https://imarticus-lms.onrender.com/api/v1/course/68ef99ed2e5d3b9f2c8223a6");
         
         const res = await fetch(
-          "http://localhost:4000/api/v1/course/68ef99ed2e5d3b9f2c8223a6"
+          "https://imarticus-lms.onrender.com/api/v1/course/68ef99ed2e5d3b9f2c8223a6"
         );
         
         console.log("Response status:", res.status);
