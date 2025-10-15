@@ -1,0 +1,1 @@
+export const NavData = ['Overview', 'Hiring Partners', 'Curriculum', 'Trainers', 'Projects', 'Success stories', 'Pricing', 'FAQs']
