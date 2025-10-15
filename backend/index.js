@@ -10,7 +10,12 @@ const cors = require("cors")
 const app = express();
 app.use(express.json());
 dotenv.config();
-app.use(cors());
+
+app.use(cors({
+    // origin: '*',
+    origin: 'https://imarticus-lms-gvbu.vercel.app',
+    credentials: true,
+}))
 
 app.use("/api/v1/user", userRoute);
 app.use("/api/v1/course", courseRoute);
